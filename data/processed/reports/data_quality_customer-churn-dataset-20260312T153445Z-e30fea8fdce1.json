@@ -1,0 +1,186 @@
+{
+  "dataset_version": "customer-churn-dataset-20260312T153445Z-e30fea8fdce1",
+  "validation": {
+    "is_valid": true,
+    "row_count": 36,
+    "column_count": 21,
+    "missing_columns": [],
+    "extra_columns": [],
+    "missing_ratio_by_column": {
+      "customer_id": 0.0,
+      "gender": 0.0,
+      "senior_citizen": 0.0,
+      "partner": 0.0,
+      "dependents": 0.0,
+      "tenure": 0.0,
+      "phone_service": 0.0,
+      "multiple_lines": 0.0,
+      "internet_service": 0.0,
+      "online_security": 0.0,
+      "online_backup": 0.0,
+      "device_protection": 0.0,
+      "tech_support": 0.0,
+      "streaming_tv": 0.0,
+      "streaming_movies": 0.0,
+      "contract": 0.0,
+      "paperless_billing": 0.0,
+      "payment_method": 0.0,
+      "monthly_charges": 0.0,
+      "total_charges": 0.0,
+      "churn": 0.0
+    },
+    "duplicate_customer_ids": 0,
+    "target_distribution": {
+      "No": 18,
+      "Yes": 18
+    },
+    "errors": [],
+    "warnings": []
+  },
+  "quality_summary": {
+    "row_count": 36,
+    "column_count": 21,
+    "missing_ratio_by_column": {
+      "customer_id": 0.0,
+      "gender": 0.0,
+      "senior_citizen": 0.0,
+      "partner": 0.0,
+      "dependents": 0.0,
+      "tenure": 0.0,
+      "phone_service": 0.0,
+      "multiple_lines": 0.0,
+      "internet_service": 0.0,
+      "online_security": 0.0,
+      "online_backup": 0.0,
+      "device_protection": 0.0,
+      "tech_support": 0.0,
+      "streaming_tv": 0.0,
+      "streaming_movies": 0.0,
+      "contract": 0.0,
+      "paperless_billing": 0.0,
+      "payment_method": 0.0,
+      "monthly_charges": 0.0,
+      "total_charges": 0.0,
+      "churn": 0.0
+    },
+    "duplicate_rows": 0,
+    "numerical_summary": {
+      "tenure": {
+        "count": 36.0,
+        "mean": 24.9167,
+        "std": 21.9146,
+        "min": 1.0,
+        "25%": 6.75,
+        "50%": 17.0,
+        "75%": 37.0,
+        "max": 72.0
+      },
+      "monthly_charges": {
+        "count": 36.0,
+        "mean": 78.1917,
+        "std": 26.3358,
+        "min": 19.8,
+        "25%": 58.2,
+        "50%": 79.95,
+        "75%": 98.5,
+        "max": 119.0
+      },
+      "total_charges": {
+        "count": 36.0,
+        "mean": 2272.2278,
+        "std": 2469.0929,
+        "min": 59.4,
+        "25%": 487.15,
+        "50%": 1283.8,
+        "75%": 2745.6,
+        "max": 8524.8
+      }
+    },
+    "categorical_summary": {
+      "customer_id": {
+        "CUST-0001": 1,
+        "CUST-0002": 1,
+        "CUST-0003": 1,
+        "CUST-0004": 1,
+        "CUST-0005": 1
+      },
+      "gender": {
+        "Female": 18,
+        "Male": 18
+      },
+      "senior_citizen": {
+        "0": 25,
+        "1": 11
+      },
+      "partner": {
+        "Yes": 18,
+        "No": 18
+      },
+      "dependents": {
+        "No": 26,
+        "Yes": 10
+      },
+      "phone_service": {
+        "Yes": 36
+      },
+      "multiple_lines": {
+        "Yes": 20,
+        "No": 16
+      },
+      "internet_service": {
+        "Fiber Optic": 20,
+        "Dsl": 14,
+        "No": 2
+      },
+      "online_security": {
+        "No": 20,
+        "Yes": 14,
+        "NoService": 2
+      },
+      "online_backup": {
+        "Yes": 18,
+        "No": 16,
+        "NoService": 2
+      },
+      "device_protection": {
+        "No": 21,
+        "Yes": 13,
+        "NoService": 2
+      },
+      "tech_support": {
+        "No": 22,
+        "Yes": 12,
+        "NoService": 2
+      },
+      "streaming_tv": {
+        "Yes": 17,
+        "No": 17,
+        "NoService": 2
+      },
+      "streaming_movies": {
+        "No": 21,
+        "Yes": 13,
+        "NoService": 2
+      },
+      "contract": {
+        "Month-To-Month": 18,
+        "Two Year": 9,
+        "One Year": 9
+      },
+      "paperless_billing": {
+        "Yes": 23,
+        "No": 13
+      },
+      "payment_method": {
+        "Electronic Check": 14,
+        "Bank Transfer (Automatic)": 9,
+        "Credit Card (Automatic)": 9,
+        "Mailed Check": 4
+      },
+      "churn": {
+        "No": 18,
+        "Yes": 18
+      }
+    }
+  }
+}
